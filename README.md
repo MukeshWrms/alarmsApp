@@ -5,7 +5,7 @@ and reminder app is used on the core data save reminder and retrieve the list of
 
 
 ![ocrApp 002](https://user-images.githubusercontent.com/51777681/131120861-c40214c2-d7ab-4ce1-ad0b-57b5af300684.jpeg)
-![ocrApp 003](https://user-images.githubusercontent.com/51777681/131120872-f9b9f5c8-3ee5-4176-b173-af6e544cce3c.jpeg)
+       ![ocrApp 003](https://user-images.githubusercontent.com/51777681/131120872-f9b9f5c8-3ee5-4176-b173-af6e544cce3c.jpeg)
 
 
 
