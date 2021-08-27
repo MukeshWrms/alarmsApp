@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A6CFD8F85BAC7F3C1E55E39 /* Pods_alarmsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5930B82998319F542F4E1665 /* Pods_alarmsApp.framework */; };
 		C975593126D66ABB00DBE4D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C975593026D66ABB00DBE4D7 /* AppDelegate.swift */; };
 		C975593326D66ABB00DBE4D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C975593226D66ABB00DBE4D7 /* SceneDelegate.swift */; };
 		C975593526D66ABB00DBE4D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C975593426D66ABB00DBE4D7 /* ViewController.swift */; };
@@ -14,9 +15,21 @@
 		C975593B26D66ABB00DBE4D7 /* alarmsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C975593926D66ABB00DBE4D7 /* alarmsApp.xcdatamodeld */; };
 		C975593D26D66AC300DBE4D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C975593C26D66AC300DBE4D7 /* Assets.xcassets */; };
 		C975594026D66AC300DBE4D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C975593E26D66AC300DBE4D7 /* LaunchScreen.storyboard */; };
+		C975595B26D760BF00DBE4D7 /* addReminder_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C975595A26D760BE00DBE4D7 /* addReminder_ViewController.swift */; };
+		C975598626D7869800DBE4D7 /* RPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C975598526D7869800DBE4D7 /* RPicker.swift */; };
+		C975598926D7877300DBE4D7 /* extraCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C975598826D7877300DBE4D7 /* extraCode.swift */; };
+		C97559A526D7A69B00DBE4D7 /* messageTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97559A426D7A69B00DBE4D7 /* messageTemp.swift */; };
+		C975E58426D8D6240015C78E /* old.swift in Sources */ = {isa = PBXBuildFile; fileRef = C975E58326D8D6240015C78E /* old.swift */; };
+		C9F2CA7F26D8090A0031B5F0 /* OcrTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F2CA7E26D8090A0031B5F0 /* OcrTextView.swift */; };
+		C9F2CA8226D8093E0031B5F0 /* ScanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F2CA8126D8093E0031B5F0 /* ScanButton.swift */; };
+		C9F2CA8526D8095C0031B5F0 /* ScanImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F2CA8426D8095C0031B5F0 /* ScanImageView.swift */; };
+		C9F2CA8826D809640031B5F0 /* OCRMain_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F2CA8726D809640031B5F0 /* OCRMain_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DDD048D70EEE4083089A304 /* Pods-alarmsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alarmsApp.debug.xcconfig"; path = "Target Support Files/Pods-alarmsApp/Pods-alarmsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5930B82998319F542F4E1665 /* Pods_alarmsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alarmsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64AAF205CBDBED8F795EB8BC /* Pods-alarmsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alarmsApp.release.xcconfig"; path = "Target Support Files/Pods-alarmsApp/Pods-alarmsApp.release.xcconfig"; sourceTree = "<group>"; };
 		C975592D26D66ABB00DBE4D7 /* alarmsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alarmsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C975593026D66ABB00DBE4D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C975593226D66ABB00DBE4D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +39,16 @@
 		C975593C26D66AC300DBE4D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C975593F26D66AC300DBE4D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C975594126D66AC300DBE4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C975595A26D760BE00DBE4D7 /* addReminder_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addReminder_ViewController.swift; sourceTree = "<group>"; };
+		C975598526D7869800DBE4D7 /* RPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPicker.swift; sourceTree = "<group>"; };
+		C975598826D7877300DBE4D7 /* extraCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extraCode.swift; sourceTree = "<group>"; };
+		C97559A426D7A69B00DBE4D7 /* messageTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messageTemp.swift; sourceTree = "<group>"; };
+		C975E57E26D8B19E0015C78E /* alarmsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = alarmsApp.entitlements; sourceTree = "<group>"; };
+		C975E58326D8D6240015C78E /* old.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = old.swift; sourceTree = "<group>"; };
+		C9F2CA7E26D8090A0031B5F0 /* OcrTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcrTextView.swift; sourceTree = "<group>"; };
+		C9F2CA8126D8093E0031B5F0 /* ScanButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanButton.swift; sourceTree = "<group>"; };
+		C9F2CA8426D8095C0031B5F0 /* ScanImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanImageView.swift; sourceTree = "<group>"; };
+		C9F2CA8726D809640031B5F0 /* OCRMain_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCRMain_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +56,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A6CFD8F85BAC7F3C1E55E39 /* Pods_alarmsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		365C5D324AFE2ABE8AF548AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5930B82998319F542F4E1665 /* Pods_alarmsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFF11969D49DEFE2D34B05B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DDD048D70EEE4083089A304 /* Pods-alarmsApp.debug.xcconfig */,
+				64AAF205CBDBED8F795EB8BC /* Pods-alarmsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C975592426D66ABA00DBE4D7 = {
 			isa = PBXGroup;
 			children = (
 				C975592F26D66ABB00DBE4D7 /* alarmsApp */,
 				C975592E26D66ABB00DBE4D7 /* Products */,
+				AFF11969D49DEFE2D34B05B7 /* Pods */,
+				365C5D324AFE2ABE8AF548AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +101,13 @@
 		C975592F26D66ABB00DBE4D7 /* alarmsApp */ = {
 			isa = PBXGroup;
 			children = (
+				C975E57E26D8B19E0015C78E /* alarmsApp.entitlements */,
+				C9F2CA7D26D808EE0031B5F0 /* ocrApplication */,
+				C97559A226D7A02600DBE4D7 /* module */,
+				C975598426D7867600DBE4D7 /* utility */,
+				C975595926D7608A00DBE4D7 /* controller */,
 				C975593026D66ABB00DBE4D7 /* AppDelegate.swift */,
 				C975593226D66ABB00DBE4D7 /* SceneDelegate.swift */,
-				C975593426D66ABB00DBE4D7 /* ViewController.swift */,
 				C975593626D66ABB00DBE4D7 /* Main.storyboard */,
 				C975593C26D66AC300DBE4D7 /* Assets.xcassets */,
 				C975593E26D66AC300DBE4D7 /* LaunchScreen.storyboard */,
@@ -70,6 +117,44 @@
 			path = alarmsApp;
 			sourceTree = "<group>";
 		};
+		C975595926D7608A00DBE4D7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C975593426D66ABB00DBE4D7 /* ViewController.swift */,
+				C975595A26D760BE00DBE4D7 /* addReminder_ViewController.swift */,
+				C975E58326D8D6240015C78E /* old.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C975598426D7867600DBE4D7 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				C975598526D7869800DBE4D7 /* RPicker.swift */,
+				C975598826D7877300DBE4D7 /* extraCode.swift */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		C97559A226D7A02600DBE4D7 /* module */ = {
+			isa = PBXGroup;
+			children = (
+				C97559A426D7A69B00DBE4D7 /* messageTemp.swift */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		C9F2CA7D26D808EE0031B5F0 /* ocrApplication */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2CA7E26D8090A0031B5F0 /* OcrTextView.swift */,
+				C9F2CA8126D8093E0031B5F0 /* ScanButton.swift */,
+				C9F2CA8426D8095C0031B5F0 /* ScanImageView.swift */,
+				C9F2CA8726D809640031B5F0 /* OCRMain_ViewController.swift */,
+			);
+			path = ocrApplication;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C975594426D66AC300DBE4D7 /* Build configuration list for PBXNativeTarget "alarmsApp" */;
 			buildPhases = (
+				3A1115C04AD6DBEC3E98D843 /* [CP] Check Pods Manifest.lock */,
 				C975592926D66ABB00DBE4D7 /* Sources */,
 				C975592A26D66ABB00DBE4D7 /* Frameworks */,
 				C975592B26D66ABB00DBE4D7 /* Resources */,
+				8C680D4B77A26DFF7EAA9A1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,14 +222,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A1115C04AD6DBEC3E98D843 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-alarmsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C680D4B77A26DFF7EAA9A1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-alarmsApp/Pods-alarmsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-alarmsApp/Pods-alarmsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-alarmsApp/Pods-alarmsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C975592926D66ABB00DBE4D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C975593526D66ABB00DBE4D7 /* ViewController.swift in Sources */,
+				C975598926D7877300DBE4D7 /* extraCode.swift in Sources */,
+				C975595B26D760BF00DBE4D7 /* addReminder_ViewController.swift in Sources */,
+				C97559A526D7A69B00DBE4D7 /* messageTemp.swift in Sources */,
+				C9F2CA8526D8095C0031B5F0 /* ScanImageView.swift in Sources */,
+				C975598626D7869800DBE4D7 /* RPicker.swift in Sources */,
 				C975593126D66ABB00DBE4D7 /* AppDelegate.swift in Sources */,
+				C9F2CA8226D8093E0031B5F0 /* ScanButton.swift in Sources */,
 				C975593326D66ABB00DBE4D7 /* SceneDelegate.swift in Sources */,
+				C9F2CA8826D809640031B5F0 /* OCRMain_ViewController.swift in Sources */,
+				C9F2CA7F26D8090A0031B5F0 /* OcrTextView.swift in Sources */,
+				C975E58426D8D6240015C78E /* old.swift in Sources */,
 				C975593B26D66ABB00DBE4D7 /* alarmsApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,9 +425,11 @@
 		};
 		C975594526D66AC300DBE4D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DDD048D70EEE4083089A304 /* Pods-alarmsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = alarmsApp/alarmsApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DS44UHFV3;
 				INFOPLIST_FILE = alarmsApp/Info.plist;
@@ -306,9 +446,11 @@
 		};
 		C975594626D66AC300DBE4D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64AAF205CBDBED8F795EB8BC /* Pods-alarmsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = alarmsApp/alarmsApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DS44UHFV3;
 				INFOPLIST_FILE = alarmsApp/Info.plist;
